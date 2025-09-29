@@ -23,7 +23,7 @@ type HTTPServer struct {
 // функция которая читает файл с конфигами
 func MustLoad() *Config {
 	configPath := os.Getenv("CONFIG_PATH")
-	print("==== ", os.Getenv("CONFIG_PATH"), " ===")
+
 	if configPath == "" {
 		log.Fatal("CONFIG_PATH is not set")
 	}
