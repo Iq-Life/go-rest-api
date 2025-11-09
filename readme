@@ -1,0 +1,6 @@
+## Setup
+
+1. Copy example configuration:
+```bash
+cp config/example.yaml config/local.yaml
+cp .env.example .env

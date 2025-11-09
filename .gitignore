@@ -1,0 +1,26 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Local configuration
+config/local.yaml
+config/dev.yaml
+
+# Binaries
+/dist
+/url-shortener
+
+# Database
+/storage/*.db
+!/storage/.gitkeep
+
+# Logs
+*.log
+/logs
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
